@@ -2,10 +2,10 @@ import { FC } from 'react';
 import Link from "next/link";
 
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
-import { useAutoConnect } from '../contexts/AutoConnectProvider';
+// import { useAutoConnect } from '../contexts/AutoConnectProvider';
 
 export const AppBar: FC = props => {
-  const { autoConnect, setAutoConnect } = useAutoConnect();
+//   const { autoConnect, setAutoConnect } = useAutoConnect();
 
   return (
     <div className="flex-none p-2">
